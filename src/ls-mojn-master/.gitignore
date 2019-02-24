@@ -1,0 +1,9 @@
+### My folders ###
+_temp/
+_template/
+node_modules/
+bower_components/
+
+### My files ###
+*.zip
+*.rar

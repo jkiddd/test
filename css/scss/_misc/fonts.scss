@@ -1,0 +1,40 @@
+    @font-face {
+        font-family: 'freeregular';
+        src: url('/font/FreeSetLight-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: optional;
+    }
+    @font-face {
+        font-family: 'helvetica-bold';
+        src: url('/font/helveticaneuecyr-light-webfont.woff') format('woff2'),
+             url('/font/helveticaneuecyr-light-webfont.woff2') format('woff');
+             font-weight: bold;
+             font-style: normal;
+             font-display: optional;    
+    }  
+    
+    @font-face {
+        font-family: 'helvetic-light';
+        src: url('helveticaneuecyr-light-webfont.woff2') format('woff2'),
+             url('helveticaneuecyr-light-webfont.woff') format('woff');
+             font-weight: 300;
+             font-style: normal;
+             font-display: optional;  
+    }
+    @font-face {
+        font-family: 'helvetic-medium';
+        src: url('/font/helveticaneuecyr-medium-webfont.woff2') format('woff2'),
+            url('/font/helveticaneuecyr-medium-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: optional;
+    }
+    @font-face {
+        font-family: 'helveti-roman';
+        src: url('/font/helveticaneuecyr-roman-webfont.woff2') format('woff2'),
+            url('/font/helveticaneuecyr-roman-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: optional;
+    }

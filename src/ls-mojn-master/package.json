@@ -1,0 +1,35 @@
+{
+  "name": "ls-mojn",
+  "version": "1.0.0",
+  "description": "Верстка фиксированной странички интернет магазина по БЕМ",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Odinokun/ls-mojn.git"
+  },
+  "author": "odinokun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Odinokun/ls-mojn/issues"
+  },
+  "homepage": "https://github.com/Odinokun/ls-mojn#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.4",
+    "gulp-useref": "^3.1.0",
+    "lazypipe": "^1.0.1",
+    "wiredep": "^4.0.0"
+  }
+}

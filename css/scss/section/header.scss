@@ -1,0 +1,162 @@
+.header { 
+background: #fb3e38; /* Old browsers */
+background: -moz-linear-gradient(left, #fb3e38 0%, #ff8f30 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #fb3e38 0%,#ff8f30 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #fb3e38 0%,#ff8f30 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb3e38', endColorstr='#ff8f30',GradientType=1 ); /* IE6-9 */
+ }
+.header__logo,.header__search,.header__menu {
+     float: left;
+ }
+//  так лечим родителю прописываем клеарфикс
+ .header__top {
+     @include clearfix;
+     padding-top: 20px;
+     border-bottom: 1px solid rgba(#f77846,0.2);    
+     padding-bottom: 20px;
+     zoom: 1;     
+ }
+ .logo__link {
+     display: inline-block; 
+ }
+ .header__pic {
+     max-width: 170px;
+     max-height: 45px;
+     display: block;
+ }
+ .header__logo {
+     width: 25%;
+ }
+ .header__search {
+     width: 40%;
+ }
+ .header__menu {
+     width: 35%;
+ }
+//  стилизая поиска 
+.form__search {
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 45px;
+    border: 0 none;
+    outline: none;
+    border-radius: 25px;
+    color: #fff;
+    background: rgba(#fff, .2);
+    width: 100%;
+   
+}
+.form__search::placeholder { 
+    color: #fff; 
+    font-size: 14px; 
+    @include helvetica(roman);
+}
+.search {
+    position: relative;
+}
+.form__submit {
+    background: url("/img/decor/zoom.png") 0 0 no-repeat;
+    width: 20px;
+    height: 20px;
+    border: none;
+    display: block;
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    top:50%;
+    margin-top: -10px;
+    right: 20px; 
+    outline: none;
+}
+
+.header__list {
+    text-align: justify;
+    margin-left: 20px;
+    &::after {
+        content: "";
+        width: 100%;
+        height: 0;
+        display: inline-block;
+    }
+}
+.header__item {
+    display: inline-block;   
+}    
+.headr__link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    display: block;
+    &:hover {
+        text-decoration: underline;
+        color: #fff;
+    }
+}
+.nav__icons--activ {
+    padding-left: 50px;  
+    border-radius: 25px;
+    border: 2px solid rgba(#feaf6d, .3);
+    position: relative;
+}
+.header__menu-icon {    
+    position: absolute;
+    top: 0;
+    left: 13px;
+    bottom: 0;
+    width: 30px;
+}
+.header__menu-pic {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; 
+}
+.header__menu-text {
+    color: #fff;
+    font-size: 13px;   
+}
+// стилизация нижнешго блока хидера
+.nav__list {
+    text-align: justify;
+    &::after{
+        content: "";
+        width: 100%;
+        height: 0;
+        display: inline-block;
+    }
+}
+.nav__item {
+    display: inline-block;
+}
+.nav__link {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.nav__icons {
+    display: inline-block;
+    vertical-align: middle;
+    height: 35px;
+}
+.nav__icons svg * {
+    fill:#fff;
+    transition: 300ms;
+    
+  
+  }
+  .nav__link:hover svg *, .nav__link:hover .nav__text {
+      fill: #ffc960;
+      color: #ffc960;
+  } 
+
+.nav__icons svg {
+    height: 100%;
+    
+}
+.nav__text {
+    margin-left: 12px;
+    transition: 300ms;
+}

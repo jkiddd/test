@@ -1,0 +1,40 @@
+@mixin helvetica($style : roman) {
+    @if $style == roman {
+        font-family: 'HelveticaRoman';
+    }
+
+    @if $style == medium {
+        font-family: 'HelveticaMedium';
+    }
+
+    @if $style == light {
+        font-family: 'HelveticaLight';
+    }
+}
+
+@mixin clearfix {
+    &::before,
+    &::after {
+        content: "";
+        display: table;
+    }
+    &::after {
+        clear: both;
+    }
+}
+
+// ===== placeholder color =====
+@mixin placecolor($color: #fff) {
+    &::-webkit-input-placeholder {
+        color: $color;
+    }
+    &:-moz-placeholder {
+        color: $color;
+    }
+    &::-moz-placeholder {
+        color: $color;
+    }
+    &:-ms-input-placeholder {
+        color: $color;
+    }
+}

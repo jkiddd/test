@@ -1,0 +1,21 @@
+{
+  "name": "ls-mojn",
+  "description": "Верстка фиксированной странички интернет магазина по БЕМ",
+  "main": "gulpfile.js",
+  "authors": [
+    "odinokun"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Odinokun/ls-mojn",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^4.1.1"
+  }
+}

@@ -1,0 +1,45 @@
+@mixin box-shadow($param) {
+    box-shadow:$param;
+    -webkit-box-shadow:$param;
+    -moz-box-shadow:$param;
+}
+
+@mixin clearfix{
+    &:before, &:after {
+        content:"";
+        display: table;        
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin inline-block($param: top) {
+	display: inline-block;
+	vertical-align: $param;
+}
+
+// на шрифт 
+@mixin helvetica($style: regular) {
+    @if $style == regular {
+        font-family: 'freeregular',Arial, sans-serif;
+    }
+
+    @if $style == bold {
+        font-family: 'helvetica-bold', Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    @if $style == light {
+        font-family: 'helvetic-light',Arial,sans-serif;
+        font-weight: 300;
+    }
+
+    @if $style == medium {
+        font-family: 'helvetic-medium',Arial,sans-serif;
+    }
+    @if $style == roman {
+        font-family: 'helveti-roman',Arial,sans-serif;
+    }
+}
+

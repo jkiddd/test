@@ -1,0 +1,16 @@
+ul {
+    list-style: none;
+    padding: 0;    
+}
+.list__link {
+    text-decoration: none;
+    color: #000;
+    &:hover {
+        .list__link1 {
+            color: red;
+        }
+        .list__title {
+            color: fuchsia;
+        }
+    }
+}

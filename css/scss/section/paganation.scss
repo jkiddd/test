@@ -1,0 +1,40 @@
+.pagination_section .conteiner {
+background: #fff;
+} 
+.pagination {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.pagination__item {
+    @include inline-block(middle);
+    @include helvetica(medium);
+    font-size: 16px;
+    color: #2e2e2e; 
+}
+.pagination__list::before  {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    background: url("/img/decor/pegenation-activ.png") 0 0 no-repeat;
+    height: 18px;
+    width: 9px;      
+}
+.pagination__list::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    background: url("/img/decor/pegenation-activ-rigth.png") 0 0 no-repeat;
+    height: 18px;
+    width: 9px;
+    margin-left: 25px;
+}
+
+.pagination__link {
+    color: #2e2e2e;
+    margin-left: 25px;
+}
+
+.ff {
+    @include clearfix;
+}

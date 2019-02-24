@@ -1,0 +1,36 @@
+.bradcrums {
+    margin-top: 20px;
+}
+
+.bradcrums__item {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 11px;
+    color: #fa3f37;    
+    &:after {
+        content: "";
+        background: url(/img/decor/way__arrow.png) 0 0 no-repeat;
+        height: 7px;
+        width: 15px;
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 10px;      
+
+    }    
+}
+.bradcrums__item:last-child::after{
+content: "";
+display: none;
+}
+.bradcrums__link {
+    color: #fa3f37;
+   
+}
+.title {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.title__text {
+    font-size: 24px;
+    color: #2e2e2e;
+}

@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'FreeSetLight-Regular';
+  src: url('FreeSetLight-Regular.eot?#iefix') format('embedded-opentype'),  url('FreeSetLight-Regular.otf')  format('opentype'),
+	     url('FreeSetLight-Regular.woff') format('woff'), url('FreeSetLight-Regular.ttf')  format('truetype'), url('FreeSetLight-Regular.svg#FreeSetLight-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
